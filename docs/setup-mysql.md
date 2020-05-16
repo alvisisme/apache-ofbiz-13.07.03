@@ -59,7 +59,13 @@ lower_case_table_names=1
 
 ### 安装mysql驱动
 
-下载mysql驱动jar包 **mysql-connector-java-5.1.40-bin.jar**，放入 ofbiz工程下的**framework/entity/lib/jdbc** 目录下
+执行如下命令安装mysql驱动
+
+```
+ant download-mySQL-JDBC
+```
+
+驱动包位于ofbiz工程下的**framework/entity/lib/jdbc** 目录下
 
 ### 配置数据库参数
 
